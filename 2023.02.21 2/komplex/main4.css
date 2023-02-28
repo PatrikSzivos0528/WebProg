@@ -1,0 +1,46 @@
+body{
+    margin-top: 15px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 15px;
+    background-color: black;
+}
+
+div#elso{
+    text-align: center;
+}
+
+table#nav{
+    border: 0px;
+    width: 900px;
+    padding: 0px;
+}
+
+td#nav{
+    background-image: url(kepek/img01.jpg);
+    height: 250px;
+}
+
+td#nav2{
+    background-image: url(kepek/img02.jpg);
+    height: 76px;
+    width: 150px;
+}
+
+div#sec{
+    text-align: left;
+}
+
+table#nav2{
+    border: 0px;
+    width: 600px;
+    padding-left: 0px;
+    padding-top: 20px;
+    height: 76px;
+}
+
+tr.menupont{
+    text-align: center;
+}
+
+
