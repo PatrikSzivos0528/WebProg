@@ -1,0 +1,44 @@
+body{
+    margin-top: 15px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 15px;
+    background-color: #000000;
+}
+
+
+table{
+    border: 0px;
+    width: 900px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+td#nav{
+    background-image: url(kepek/img01.jpg);
+    height: 250px;
+}
+
+td#list{
+    background-image: url(kepek/img02.jpg);
+    height: 76px;
+    width: 150px;
+}
+
+table#nav{
+    border: 0px;
+    width: 600px;
+    padding-left: 0px;
+    padding-right: 20px;
+    height: 76px;
+}
+
+td#cim{
+    background-color: #FFFFFF;
+}
+
+p.cim{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
