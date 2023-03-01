@@ -1,0 +1,28 @@
+body{
+    background-color: lightgoldenrodyellow;
+}
+
+p{
+    background-color: aquamarine;
+}
+
+@media screen and ( min-width: 765px ) {
+    p{
+        background-color: yellow;
+        font-size: large;
+    }
+}
+
+@media screen and ( min-width: 962px ) {
+    p{
+        background-color: green;
+        font-size: x-large;
+    }
+}
+
+@media screen and ( min-width: 962px ) {
+    p{
+        background-color: red;
+        font-size: xx-large;
+    }
+}
