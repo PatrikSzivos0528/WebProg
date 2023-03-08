@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Szivós Patrik Dávid</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            Szivós Patrik Dávid
+        </header>
+        <nav>
+            <a href="#" class="toggleNav">☰ Menü</a>
+            <ul>
+                <li><a href="#" >Menü-1</a></li>
+                <li><a href="#" >Menü-2</a></li>
+                <li><a href="#" >Menü-3</a></li>
+                <li><a href="#" >Menü-4</a></li>
+                <li><a href="#" >Menü-5</a></li>
+                <li><a href="#" >Menü-6</a></li>
+                <li class="logo"><a href="https://www.facebook.com/patrikdavid.szivos/" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                <li class="logo"><a href="https://github.com/PatrikSzivos0528/WebProg" target="_blank"><i class="fab fa-github"></i></a></li>
+                <li class="logo"><a href="" target="_blank"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+        </nav>
+    </div>
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>
+
+            $(function () {
+                $('.toggleNav').on('click', function () {
+                    $('nav ul').toggleClass('open');
+                });
+            });
+
+
+
+        </script>
+</body>
+</html>
